@@ -1,0 +1,28 @@
+[
+  {
+    "action_type": "PRODUCTS_SALES_COUNT_OVERVIEW",
+    "output_type": "table",
+    "description": "Count transactions per product and show most/least sold products."
+  },
+  {
+    "action_type": "PRODUCTS_SALES_REVENUE_OVERVIEW",
+    "output_type": "table",
+    "description": "Aggregate revenue per product over the full dataset and show top/least revenue products."
+  },
+  {
+    "action_type": "REVENUE_WITHIN_TIMEFRAME",
+    "output_type": "table",
+    "description": "Compute product revenue within a requested timeframe (for example: last X days, last week, last month)."
+  },
+  {
+    "action_type": "CATEGORY_REVENUE_THIS_WEEK",
+    "output_type": "kpi_chart",
+    "description": "Revenue by category for this week."
+  },
+  {
+    "action_type": "SALES_TREND_BY_DAY_LAST_30",
+    "output_type": "line_chart",
+    "description": "Daily sales trend over the last 30 days."
+  }
+]
+
