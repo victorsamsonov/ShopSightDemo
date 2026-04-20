@@ -2,6 +2,7 @@
 
 [Architecture](strawmanarch.png)
 
+<img width="993" height="501" alt="image" src="https://github.com/user-attachments/assets/2872a924-4313-4e19-8e5e-ab50c2c9827c" />
 
 ## 1) What I chose to build and why
 
