@@ -81,7 +81,7 @@ The frontend calls:
 
 Real (when the dataset is present / SQLite import succeeds):
 
-- **Analytics execution**: action queries are run against **SQLite**. The data is small subset of 960 transactions (transactions in hm_with_images/images/010 and 011)
+- **Analytics execution**: action queries are run against **SQLite**. The data is small subset of 960 transactions (transactions in hm_with_images/images/010 and 011), the values were scaled by 1000 to make them larger as observed in the notebook (hence the larger results).
 - **Visual payloads**: chart/table/KPI values returned from the backend are rendered by the frontend using data from the queries.
 **LLM-driven insight/followups**: some paths can generate the `insight` and `followups` using OpenAI (if configured).
 
